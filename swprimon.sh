@@ -25,6 +25,14 @@ _updateState() {
 	. $STATE_FILE
 }
 
+if [ ! -z $SWPRIMON_INT ];then
+	echo "select new primary monitor:"
+ 	xrandr --listactivemonitors | sed -E "{/Monitors/d;s/^\s[0-9]:\s*\+(.?[A-Z]*.?)\s*(.*)/- \1/g}"
+	read -p "Enter Monitor name: " NEWPRIMARY
+	xrandr --output $NEWPRIMARY --primary
+	exit 0
+fi
+
 if [ ! -f "$STATE_FILE" ];then
 	echo "NEW_PRI_MON=" > $STATE_FILE
 	echo "MON_ARR=" >> $STATE_FILE
