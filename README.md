@@ -7,17 +7,16 @@
 Switch primary screen between any number of monitors using GUI
 
 ## Setup
-1. `cp swprimon-gui.sh ~/.local/bin/`
+`cp swprimon-gui.sh ~/.local/bin/swprimon-gui`
 
-    Note: make sure `~/.local/bin/` exists and in PATH
+Note: make sure `~/.local/bin/` exists and in PATH
 
 ## Usage
- - **GUI:**
-    Set keboard shorcut from Settings -> Keyboard
-    <p align="center">
-    <img src="img.png" width=690 height=480>
-    </p>
+Set keboard shorcut from Settings -> Keyboard
+<p align="center">
+<img src="img.png" width=690 height=440>
+</p>
 
-    <p align="center">
-    <img src="img2.png" width=290 height=240>
-    </p>
+<p align="center">
+<img src="img2.png" width=290 height=240>
+</p>
