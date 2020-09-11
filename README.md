@@ -6,11 +6,15 @@
 ## Description
 Switch primary screen between any number of monitors with interactive option
 
+## Requirements
+- bash
+- xrandr
+- notify-send
+
 ## Setup
 `cp swprimon.sh ~/.local/bin/swprimon`
 
 Note: make sure `~/.local/bin/` exists and in PATH
-
 
 ## Usage
 - **Interactive:** `SWPRIMON_INT=1 swprimon`
