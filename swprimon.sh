@@ -37,3 +37,4 @@ fi
 
 _updateState
 xrandr --output $NEW_PRI_MON --primary
+notify-send "Switched primary monitor to $NEW_PRI_MON"
