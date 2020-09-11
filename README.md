@@ -6,6 +6,11 @@
 ## Description
 Switch primary screen between any number of monitors using GUI
 
+## Requirements
+- bash
+- xrandr
+- zenity
+
 ## Setup
 `cp swprimon-gui.sh ~/.local/bin/swprimon-gui`
 
